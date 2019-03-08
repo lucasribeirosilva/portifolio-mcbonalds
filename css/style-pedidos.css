@@ -1,0 +1,42 @@
+html{
+    height: 100%;
+}
+body{
+    background-color: #361a0c;
+    text-align: center;
+    height: 100%;
+}
+h2{
+    color: #ff9933;
+    text-shadow:-2px -2px 0 #a70000,
+                2px -2px 0 #a70000,
+                -2px 2px 0 #a70000,
+                2px  2px 0 #a70000;
+}
+main {
+    height: calc(100% - 245px);
+}
+form{
+    margin:  0 auto;
+    width: 30%;
+    text-align: left;
+}
+label {
+    color: #ff9933;
+    font-weight: bold;
+}
+
+input,select{
+    border-radius: 4px;
+    width: 100%;
+    height: 25px;
+    border: none;
+}
+
+form * {
+    margin: 5px 0;
+}
+form > div{
+    display: inline-block; 
+    height: 50%;
+}

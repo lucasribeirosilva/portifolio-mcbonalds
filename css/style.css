@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Calibri', 'Open Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Janda Manatee Solid', 'Londrina Solid', cursive;
+}
+
+h1 {
+    display: none;
+}
+
+nav > ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #ff9933;
+    font-size: 1.3em;
+    height: 2.5em;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #361a0c;
+    font-weight: bold;
+    padding: 0.65em 3em;
+}
+
+nav a:hover{
+     background-color: #c27629;
+     color: #fff;     
+}
+
+#logo_area {
+    background-image: url(../img/fundo_logo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding:  1em;
+}
+
+#logo_area h2{
+    color: #ff9933;
+    text-shadow:2px 2px 0 #361a0c,
+                2px 2px 0 #361a0c,
+                2px  2px 0 #361a0c,
+                2px  2px 0 #361a0c;
+}
+
+#banner {
+    background-color: #000;
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+}
+
+#banner p {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#banner img{
+    margin: 10px 0 10px 0;
+}
+
+.banner_destaque{
+    font-size:  4em;
+    font-family: 'Janda Manatee Solid', 'Londrina Solid', cursive;
+    color: #a70000;
+    -webkit-text-stroke: 4px #ffcc00;
+}
+
+#hamburgueres{
+background: #361a0c;
+padding: 2em 0;
+}
+
+#hamburgueres h2 {
+    color: #ff9933;
+    text-shadow:2px -2px 0 #a70000,
+               -2px 2px 0 #a70000,
+                2px 2px 0 #a70000,
+               -2px  -2px 0 #a70000;
+    margin-bottom: 1em;
+}
+
+section{
+    text-align: center;
+}
+
+.flex-grupo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #a70000;
+    font-family: 'Janda Manatee Solid', 'Londrina Solid', cursive;
+}
+
+.ham1 {
+    background-color: #ff9933;
+    display: block;
+}
+.preco1 {
+    font-size: 5em;
+    margin-top: -0.5em;
+    text-shadow:5px -5px 0 #ff9933,
+               -5px 5px 0 #ff9933,
+                5px 5px 0 #ff9933,
+               -5px -5px 0 #ff9933;
+    
+    
+}
+.preco2 {
+    font-size: 5em;
+    margin-top: -0.5em;
+    text-shadow:5px -5px 0 #ff9933,
+               -5px 5px 0 #ff9933,
+                5px 5px 0 #ff9933,
+               -5px -5px 0 #ff9933;
+    
+    
+}
+.preco3 {
+    font-weight: bold;
+    font-size: 5em;
+    margin-top: -0.5em;
+    text-shadow:5px -5px 0 #ff9933,
+               -5px 5px 0 #ff9933,
+                5px 5px 0 #ff9933,
+               -5px -5px 0 #ff9933;
+    
+    
+}
+
+.ham2{
+    background-color: #ff9933;
+    
+}
+
+.ham3{
+    background-color: #ff9933;
+}
+.nome1{
+    font-size: 2em;
+    
+}
+
+.nome2{
+    font-size: 2em;
+}
+
+.nome3{
+    font-size: 2em;
+}
+
+.referencia{
+    font-size: 1em;
+    color: #a70000;
+    font-family: 'Janda Manatee Solid', 'Londrina Solid', cursive;
+    
+}
+.shakes1 {
+    
+    background-color: #ff9933;
+    display: block;
+}
+#shakesgrupo {
+display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.preçosh {
+    font-size: 5em;
+    margin-top: -0.5em;
+    text-shadow:5px -5px 0 #ff9933,
+               -5px 5px 0 #ff9933,
+                5px 5px 0 #ff9933,
+               -5px -5px 0 #ff9933;
+    align-items: center;
+    color: #a70000;
+    font-family: 'Janda Manatee Solid', 'Londrina Solid', cursive;
+}
+.nomessh {
+    font-size: 2em;
+    text-shadow:5px -5px 0 #ff9933,
+               -5px 5px 0 #ff9933,
+                5px 5px 0 #ff9933,
+               -5px -5px 0 #ff9933;
+    align-items: center;
+    color: #a70000;
+    font-family: 'Janda Manatee Solid', 'Londrina Solid', cursive;
+}
+#historia {
+    background-color: #a70000;
+    
+}
+
+#shakes {
+    background-color: #fff;
+padding: 1em;
+
+}
+#shakesg {
+    color: #a70000;
+    text-shadow:2px -2px 0 #ff9933,
+               -2px 2px 0 #ff9933,
+                2px 2px 0 #ff9933,
+               -2px  -2px 0 #ff9933;
+}
+.referencia2 {
+    margin: 1em;
+    font-size: 1em;
+    color: #a70000;
+    font-family: 'Janda Manatee Solid', 'Londrina Solid', cursive;}
+
+#his1{
+    font-size: 3em;
+    font-family: 'Janda Manatee Solid', 'Londrina Solid', cursive;
+    color: #361a0c;
+    text-shadow:2px -2px 0 #ff9933,
+               -2px 2px 0 #ff9933,
+                2px 2px 0 #ff9933,
+               -2px  -2px 0 #ff9933;
+    padding: 1em;
+    text-align: justify;
+}
+
+#his2{
+    color: #fff;
+    font-size: 1.5em;
+}
+#hisg{
+    align-items: center;
+    display: flex;
+    flex-direction: row;   
+}
+#footer{
+    position: relative;
+    bottom:-5em;
+    background: #ff9933;
+    text-align: center;
+    justify-content: space-evenly;
+    color: #a70000;
+    font-family: 'Janda Manatee Solid', 'Londrina Solid', cursive;
+}
+.aa {
+    font-family: 'Janda Manatee Solid', 'Londrina Solid', cursive;
+    
+}
+
+
